@@ -1,49 +1,44 @@
-/* Add this to your CSS file */
-
-/* Inheritance */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 18px;
-  }
-  
-  /* Select multiple elements */
-  header, footer {
-    background-color: #f2f2f2;
-  }
-  
-  /* Class selector */
-  .site-title {
-    color: #333;
-  }
-  
-  /* ID selector */
-  #my-image {
+}
+
+header, footer {
+    background-color: #f8f9fa;
+}
+
+.site-title {
+    color: #007bff;
+}
+
+#my-image {
     box-shadow: 0 0 2px 1px black;
-  }
-  
-  /* Replace bullets with squares */
-  ul {
+}
+
+ul.hobbies {
     list-style-type: square;
-  }
-  
-  /* nth-child selector for odd list items */
-  ul li:nth-child(odd) {
-    background-color: #e9e9e9;
-  }
-  
-  /* Styling the Navigation */
-  nav ul {
-    list-style: none;
-  }
-  
-  nav a {
+}
+
+ul.hobbies li:nth-child(odd) {
+    background-color: #e9ecef;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a {
     text-decoration: none;
-    background-color: #ddd;
-    border: 1px solid #ccc;
-    padding: 5px 10px;
-  }
-  
-  nav a:hover, nav a:focus {
-    background-color: #ccc;
-  }
-  
+    display: block;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    color: #007bff;
+}
+
+nav a:hover, nav a:focus {
+    background-color: #007bff;
+    color: white;
+}
