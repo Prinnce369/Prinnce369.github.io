@@ -1,33 +1,41 @@
+/* Apply a font family and size to the entire body */
 body {
     font-family: Arial, sans-serif;
     font-size: 18px;
 }
 
+/* Apply a background color to the header and footer */
 header, footer {
-    background-color: #f8f9fa;
+    background-color: #f8f9fa; /* Light grey background */
 }
 
+/* Style the site title */
 .site-title {
-    color: #007bff;
+    color: #007bff; /* Blue color */
 }
 
+/* Add a box shadow to the image */
 #my-image {
     box-shadow: 0 0 2px 1px black;
 }
 
+/* Style the list of hobbies */
 ul.hobbies {
-    list-style-type: square;
+    list-style-type: square; /* Change bullet to square */
 }
 
+/* Add background color to odd list items */
 ul.hobbies li:nth-child(odd) {
-    background-color: #e9ecef;
+    background-color: #e9ecef; /* Light grey background */
 }
 
+/* Remove bullets from the navigation list */
 nav ul {
     list-style-type: none;
     padding: 0;
 }
 
+/* Remove underline from links and style them */
 nav a {
     text-decoration: none;
     display: block;
@@ -35,10 +43,11 @@ nav a {
     background-color: #f8f9fa;
     border: 1px solid #ddd;
     margin: 5px 0;
-    color: #007bff;
+    color: #007bff; /* Blue color */
 }
 
+/* Change background color on hover or focus */
 nav a:hover, nav a:focus {
-    background-color: #007bff;
+    background-color: #007bff; /* Blue background */
     color: white;
 }
