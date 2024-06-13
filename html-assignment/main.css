@@ -1,48 +1,55 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
+body {
+    font-family: Arial, Helvetica, sans-serif ;
     font-size: 18px;
 }
 
-header, footer{
-    background-color: #96c3ee;
-    padding: 10px;
-    text-align: center;
+header, footer {
+    background-color: rgb(166, 187, 120);
 }
 
-.site-title{
-    color: #3333ff;
+.site-title  {
+    color: rgb(112, 135, 54);
 }
 
-#my-image{
-    box-shadow: 0px 0px 2px 1px black ;
-    height: 5%;
-    width: 15%;
+
+#my-image {
+    box-shadow: 0 0 2px 1px rgb(0, 0, 0);
+}
+.paragraph {
+    color: rgb(50, 74, 0);
 }
 
-article ul{
+.hobby-list {
     list-style-type: square;
 }
 
-article ul li:nth-child(odd){
-    background-color: #e0abab;
+.hobby-list li:nth-child(odd) {
+    background-color: rgb(178, 207, 115);
+}
+.hobby-list li:nth-child(odd) {
+    background-color: rgb(178,207,115);
 }
 
-nav ul{
-    list-style-type: none;
-    padding: 0;
+
+/* Remove the bullets from the unordered list in navigation (only if you have used the ul tag inside the nav tag) */
+nav ul {
+    list-style: none;
 }
 
-nav ul li{
-    display: inline;
-    margin-right: 10px;
-}
-nav ul li a{
+/* Remove the underline from the links */
+nav a {
     text-decoration: none;
-    background-color: #ddd;
-    border: 1px solid #ccc;
-    padding: 5px 10px;
-    border-radius: 4px;
 }
-nav ul li a:hover, nav ul li a:focus{
-    background: #ccc;
+
+/* Add a background and border to the links */
+nav a {
+    background-color:  rgb(106, 128, 59);
+    border: 2px solid #202b01;
+    padding: 9px 15px; /* Adjust padding as needed */
+}
+
+/* Change the background colour on hover or focus state of the links */
+nav a:hover,
+nav a:focus {
+    background-color: #9efa58;
 }
